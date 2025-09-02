@@ -1,0 +1,226 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" slick-uniqueid="3">
+<head>
+    <!--meta data-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="Fangcen Liu - Homepage">
+    <meta name="description" content="Fangcen Liu's Homepage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 响应式设计 -->
+    
+    <link rel="stylesheet" href="./css/jemdoc.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <style type="text/css">
+        /* 优化导航栏 */
+        nav a {
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #f0f0f0;
+            color: #007BFF;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            #home td {
+                display: block;
+                width: 100%;
+            }
+            #photo {
+                width: 100%;
+                max-width: 200px;
+            }
+        }
+        
+        /* 文本段落优化 */
+        p {
+            line-height: 1.8;
+        }
+
+        /* 学术新闻和论文成果部分的样式 */
+        .news-container .scrollable-content {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        /* 社会服务部分卡片样式 */
+        .service-card {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+
+    <title>Fangcen Liu - Homepage</title>
+    <link rel="shortcut icon" href="./people/lfc/icon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./people/lfc/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./people/lfc/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./people/lfc/icon/favicon-16x16.png">
+    <link rel="manifest" href="./people/lfc/icon/manifest.json">
+    <link rel="mask-icon" href="./people/lfc/icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="./scripts/scroll.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar-container">
+        <nav>
+            <div>
+                <ul>
+                    <li><a onclick="scrollToSection('home')" style="cursor: pointer;">Home</a></li>
+                    <li><a onclick="scrollToSection('biography')" style="cursor: pointer;">Biography</a></li>
+                    <li><a onclick="scrollToSection('publication')" style="cursor: pointer;">Publication</a></li>
+                    <li><a href="index.html" style="cursor: pointer;">中文介绍</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Overall layout control -->
+    <div id="layout-content" style="margin-top: 25px">
+        <!-- Figure, Name, Addree, Email, CV, etc. -->
+		<table id="home" class="home">
+            <tbody>
+                <tr>
+                    <td width="19%" valign="top" height="173">
+                        <img height="300" id="photo" style="padding: 10pt 30pt 0pt 10pt; float: left; display: inline;" src="./people/lfc/avatar.jpg">
+                    </td>
+
+                    <td width="80%" valign="top" height="173">
+                        <b><font face="Verdana" size="5">Fangcen Liu (刘芳岑)</font></b>
+                        <br>
+                        <br>
+                        <p>
+                            <b><font size="5">Associate Professor</font></b>
+                        </p>
+                        <p>
+                            <a href="https://cs.hainanu.edu.cn/" target="_blank">School of Computer Science and Technology</a><br>
+							<a href="https://www.hainanu.edu.cn/" target="_blank">Hainan University</a><br>
+                            <br>
+                            <br>
+                            <strong>Address:</strong><br>
+                            Room 1315, Agricultural Science Building
+                            <br>
+                            <br>
+                            <strong>Email:</strong> 
+							<br>
+							liufc@hainanu.edu.cn<br>
+                            <br>
+                            <a href="https://scholar.google.com/citations?user=66KRsucAAAAJ&hl=zh-CN" target="_blank">[Google Scholar]</a> &nbsp;&nbsp;<a href="https://github.com/liufangcen" target="_blank">[GitHub]</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Biography -->
+        <h2 id="biography">Biography</h2>
+        <p style="text-align: justify; line-height: 1.5;">
+			I received my Ph.D. degree from Chongqing University of Posts and Telecommunications (CQUPT), Chongqing, China in 2025, under the supervision of <a href="https://gaocq.github.io" target="_blank">Chenqiang Gao(高陈强)</a>, a full professor at the School of Intelligent Systems Engineering at Sun Yat-sen University (Shenzhen Campus). Before that, I got my B.E and M.E degrees from Chongqing University of Posts and Telecommunications in 2018 and 2021, respectively. I am now an Associate Professor in the School of Computer Science and Technology at the Hainan University.
+			<br>
+			I have a board range of research interests in Infrared Image Processing, Image Segmentation, Object Detection, and Multimodal Image Understanding. 
+        </p>
+        <p style="text-align: justify; line-height: 1.5;">
+            <strong style="color:red; font-size:120%;">Accepting Students</strong>: I am looking for highly motivated students, please read the <a href="join_us.html" target="_blank">admission instruction</a> and feel free to drop me an email with your CV. <br>
+        </p>
+
+        <!-- Publication -->
+        <h2 id="publication">Publications</h2>	
+		* Corresponding author
+		<table border="0" width="100%">
+            <tbody>
+				<!--  A Fusion-Enhanced Network for Infrared and Visible High-Level Vision Tasks -->
+				<tr>
+				    <td>
+				        <br>
+				    </td>
+				</tr>
+				<tr>
+				    <td>
+				        <div align="center">
+				            <img width="280" height="150"style="padding: 0pt 10pt 0pt 0pt" src="./projects/TMM2025/TMM2025.png" alt="">
+				        </div>
+				    </td>
+				    <td>
+				        <font style="line-height: 180%; font-weight: bold">A Fusion-Enhanced Network for Infrared and Visible High-Level Vision Tasks</font>
+				        <br>
+				        <strong>Fangcen Liu</strong>, Chenqiang Gao*, Fang Chen, Pengcheng Li, Junjie Guo, Deyu Meng. &nbsp; <em>IEEE Transactions on Multimedia, Accept, 2025.</em><br>
+
+				    </td>
+				</tr>
+				
+				<!-- InfMAE: A Foundation Model in Infrared Modality -->
+				<tr>
+				    <td>
+				        <br>
+				    </td>
+				</tr>
+				<tr>
+				    <td>
+				        <div align="center">
+				            <img width="280" height="200"style="padding: 0pt 10pt 0pt 0pt" src="./projects/ECCV2024/ECCV2024.png" alt="">
+				        </div>
+				    </td>
+				    <td>
+				        <font style="line-height: 180%; font-weight: bold">InfMAE: A Foundation Model in Infrared Modality</font>
+				        <br>
+				        <strong>Fangcen Liu</strong>, Chenqiang Gao*, Yaming Zhang, Junjie Guo, Jinhao Wang, Deyu Meng. &nbsp; <em>ECCV 2024.</em><br>
+				        [<a href="https://arxiv.org/pdf/2402.00407" target="_blank">Paper</a>]&nbsp;
+						[<a href="https://github.com/liufangcen/InfMAE/actions/new" target="_blank">Code</a>]&nbsp;
+				    </td>
+				</tr>
+				
+				<!--  Infrared Small and Dim Target Detection with Transformer under Complex Backgrounds -->
+				<tr>
+				    <td>
+				        <br>
+				    </td>
+				</tr>
+				<tr>
+				    <td>
+				        <div align="center">
+				            <img width="280" height="200"style="padding: 0pt 10pt 0pt 0pt" src="./projects/TIP2023/TIP2023.png" alt="">
+				        </div>
+				    </td>
+				    <td>
+				        <font style="line-height: 180%; font-weight: bold"> Infrared Small and Dim Target Detection with Transformer under Complex Backgrounds </font>
+				        <br>
+				        <strong>Fangcen Liu</strong>, Chenqiang Gao*, Fang Chen, Deyu Meng, Wangmeng Zuo, Xinbo Gao. &nbsp; <em>  IEEE Transactions on Image Processing, 32: 5921-5932, 2023.</em><br>
+				        [<a href="https://ieeexplore.ieee.org/abstract/document/10298041" target="_blank">Paper</a>]&nbsp;
+				    </td>
+				</tr>
+
+				<!-- Infrared and Visible Cross-Modal Image Retrieval through Shared Features -->
+				<tr>
+				    <td>
+				        <br>
+				    </td>
+				</tr>
+				<tr>
+				    <td>
+				        <div align="center">
+				            <img width="300" height="130"style="padding: 0pt 10pt 0pt 0pt" src="./projects/TCSVT2021/TCSVT2021.png" alt="">
+				        </div>
+				    </td>
+				    <td>
+				        <font style="line-height: 180%; font-weight: bold">Infrared and Visible Cross-Modal Image Retrieval through Shared Features</font>
+				        <br>
+				        <strong>Fangcen Liu</strong>, Chenqiang Gao*, Yongqing Sun, Yue Zhao, Feng Yang, Anyong Qin, Deyu Meng. &nbsp; <em> IEEE Transactions on Circuits and Systems for Video Technology, 31(11): 4485-4496, 2021.</em><br>
+				        [<a href="https://ieeexplore.ieee.org/abstract/document/9312626" target="_blank">Paper</a>]&nbsp;
+				    </td>
+				</tr>
+				
+                <tr>
+                    <td>
+                        <br>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+</body>
+</html>
